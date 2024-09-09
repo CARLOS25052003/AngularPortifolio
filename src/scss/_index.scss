@@ -1,1 +1,5 @@
-@use "/home/carlos-charles/angular-portifolio/src/scss/base/_index.scss";
+@use "/home/carlos-charles/angular-portifolio/src/scss/base/_index.scss" as baseIndex;
+@use "/home/carlos-charles/angular-portifolio/src/scss/components/index.scss" as componentsIndex;
+@use "/home/carlos-charles/angular-portifolio/src/scss/layout/_index.scss" as layoutIndex;
+@use "/home/carlos-charles/angular-portifolio/src/scss/theme/_index.scss" as themeIndex;
+
