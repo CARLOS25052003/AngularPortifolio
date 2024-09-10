@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "ng build --configuration production --base-href=/angular-portifolio/",
-    "deploy": "ng build --configuration production --base-href=/angular-portifolio/ && ngh --dir=dist/angular-portifolio",
+    "deploy": "ng build --configuration production --base-href /angular-portifolio/ && ngh --dir=docs",
     "ng": "ng",
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
