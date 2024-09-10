@@ -17,11 +17,11 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'Em Breve',
+      src: 'assets/imgs/Working.png',
       alt: 'Primeiro projeto',
       title: "Primeiro projeto em andamento",
-      with: '100px',
-      height: '51px',
+      with: '120px',
+      height: '120px',
       description:
         '<p> primeiro projeto',
       links: [
